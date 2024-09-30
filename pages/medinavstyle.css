@@ -2,6 +2,22 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
+.txt-bold{
+    font-weight: bold;
+}
+.txt-22{
+    font-size: 22px;
+}
+.txt-25{
+    font-size: 25px;
+}
+.txt-20{
+    font-size: 20px;
+}
+.txt-18{
+    font-size: 18px;
+}
+
 
 header {
     background-color: #333;
@@ -184,6 +200,8 @@ header {
     color: #666;
 }
 
+
+
 /* .card:hover {
     transform: scale(1.03);
 } */
@@ -200,3 +218,41 @@ header {
     }
 }
 
+.main-header{
+    padding: 10px 30px;
+    color: rgb(0, 166, 255);
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+.main-header p{
+    font-size: 30%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.company-into{
+    display: grid;
+    padding: 4rem;
+    grid-template-columns: 3fr 1fr;
+}
+
+.col{
+    padding: 10px;
+    border: 1px solid red;
+    
+}
+
+#title-text{
+    font-size:3rem;
+    background: -webkit-linear-gradient(#99d3ee, #c3dde9, #8aeeb9);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+
+  #footer{
+    background-color: #5C768D;
+  }
+#treatmentsbg{
+padding: 5px 30px ;
+  }
