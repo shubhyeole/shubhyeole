@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function showSlide(index) {
         const totalItems = items.length;
-        if (index >= totalItems) {
+        if (index >= totalItems){
             currentIndex = 0;
         } else if (index < 0) {
             currentIndex = totalItems - 1;
