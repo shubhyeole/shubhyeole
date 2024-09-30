@@ -32,7 +32,6 @@ header {
 }
 
 .navbar .logo a {
-
     color: white;
     text-decoration: none;
     font-size: 24px;
@@ -118,11 +117,12 @@ header {
 }
 
 .carousel-item img {
-    width: 100%;
+    border:1px solid #333;
+    width:100%;
     aspect-ratio: 5/2; /*   width/height    */
     /*   4/2 in this case 4 is width and 2 is hieght    */
-    object-fit:cover;
-    display: block;
+    /* object-fit:cover; */
+    display: inline-block;
    
 }
 
@@ -137,7 +137,7 @@ header {
     cursor: pointer;
     font-size: 24px;
     /* z-index: 100; */
-    z-index: 10;
+
 }
 
 .prev {
@@ -162,6 +162,7 @@ header {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 20px;
+    padding: 10px;
    
     /* width: calc(33.333% - 20px); 3 cards per row with margin */
     width: calc(30% - 20px); /* 3 cards per row with margin */
@@ -173,9 +174,9 @@ header {
 
 .card img {
     width: 100%;
-    
+    border-radius: 5px;
     height: auto;
-   overflow: hidden;    /* new added */
+    overflow: hidden;    /* new added */
     /* padding: 2px;
     border-radius: 8px;*/
     aspect-ratio: 3/2;
@@ -221,7 +222,7 @@ header {
 .main-header{
     padding: 10px 30px;
     color: rgb(0, 166, 255);
-    font-size: 1.8rem;
+    font-size:40px;
     font-weight: bolder;
 }
 .main-header p{
@@ -247,12 +248,4 @@ header {
     background: -webkit-linear-gradient(#99d3ee, #c3dde9, #8aeeb9);
     background-clip: text;
     -webkit-text-fill-color: transparent;
-  }
-
-
-  #footer{
-    background-color: #5C768D;
-  }
-#treatmentsbg{
-padding: 5px 30px ;
   }
