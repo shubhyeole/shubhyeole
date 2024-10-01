@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Medinav Pharma</title>
-   
+
     <link rel="stylesheet" href="medinavstyle.css" />
-     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <header>
@@ -44,35 +45,35 @@
     </section>
     <main>
       <div class="main-header">
-        <p>Our Products</p>
+        <p id="title-text">Our Products</p>
       </div>
 
       <section class="card-container" id="product">
         <div class="card">
           <img src="img/Montley.jpeg" alt="Card Image 1" />
           <div class="card-content">
-            <h2>Title 1</h2>
+            <h2>Montley</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
         </div>
         <div class="card">
           <img src="img/moxinav.jpeg" alt="Card Image 2" />
           <div class="card-content">
-            <h2>Title 2</h2>
+            <h2>Moxinav</h2>
             <p>Curabitur pretium tincidunt lacus.</p>
           </div>
         </div>
         <div class="card">
           <img src="img/acenav.jpeg" alt="Card Image 3" />
           <div class="card-content">
-            <h2>Title 3</h2>
+            <h2>Acenav-SP</h2>
             <p>Nullam quis risus eget urna mollis ornare vel eu leo.</p>
           </div>
         </div>
         <div class="card">
           <img src="img/rabinav.jpeg" alt="Card Image 3" />
           <div class="card-content">
-            <h2>Title 3</h2>
+            <h2>Rabinav-DSR</h2>
             <p>Nullam quis risus eget urna mollis ornare vel eu leo.</p>
           </div>
         </div>
@@ -83,9 +84,9 @@
             <p>Nullam quis risus eget urna mollis ornare vel eu leo.</p>
           </div>
         </div>
-        <div class="card">
+        <!--  <div class="card"> -->
           <!-- added Image in div  -->
-          <div class="card-img">
+          <!-- <div class="card-img">
             <img src="img/image3.jpg" alt="Card Image 3" />
           </div>
 
@@ -93,44 +94,97 @@
             <h2>Title 3</h2>
             <p>Nullam quis risus eget urna mollis ornare vel eu leo.</p>
           </div>
-        </div>
+        </div> --> 
         <!-- Add more cards as needed -->
       </section>
 
       <!-- <div class="main-header">
         <p id="title-text">Company</p>
       </div> -->
-<section>
-    <p id="title-text">Company</p>
-</section>
 
-      <div class="company-into">
-        <div class="col" id="col1">
-          <p class="p1-title">Welcome to <strong>Medinav Pharma</strong> </p>
-          <p>
-            Founded in 2019, Medinav Pharma is dedicated to advancing healthcare
-            through our unwavering commitment to "Effective Medicine for
-            Humanity." We strive to develop innovative pharmaceutical solutions
-            that enhance the well-being of patients globally.
-          </p>
-          <p>
-            Our team of experienced professionals is passionate about improving
-            health outcomes and ensuring that everyone has access to
-            high-quality treatments. We believe that through collaboration,
-            research, and integrity, we can make a meaningful impact on lives
-            around the world.
-          </p>
-          <p>
-            Join us on our journey to revolutionize healthcare and create a
-            healthier future for all.
-          </p>
-        </div>
-        <div class="col" id="col2"></div>
+      <div class="main-header">
+        <p id="title-text">Company</p>
       </div>
+
+      <section>
+        <div class="company-into">
+          <div class="col" id="col1">
+            <p class="p1-title">Welcome to <strong>Medinav Pharma</strong></p>
+            <p>
+              Founded in 2019, Medinav Pharma is dedicated to advancing
+              healthcare through our unwavering commitment to "Effective
+              Medicine for Humanity." We strive to develop innovative
+              pharmaceutical solutions that enhance the well-being of patients
+              globally.
+            </p>
+            <p>
+              Our team of experienced professionals is passionate about
+              improving health outcomes and ensuring that everyone has access to
+              high-quality treatments. We believe that through collaboration,
+              research, and integrity, we can make a meaningful impact on lives
+              around the world.
+            </p>
+            <p>
+              Join us on our journey to revolutionize healthcare and create a
+              healthier future for all.
+            </p>
+          </div>
+          <div class="col" id="col2">
+            <img
+              src="img/medinav-pharma.png"
+              width="200px"
+              class="responsive"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
     </main>
-    <footer>
-
-
+    <footer class="d-flex col-gap-2">
+      <div class="footer-col">
+        <h3>Medinav Pharma</h3>
+        <p>Surya complex, doodhwala corner,Nashik 422011</p>
+        <div class="social-icons d-flex"  >
+            <div class="social-icons-item" style="border: 1px solid;">
+              <a href=""><i class="fa-brands fa-linkedin"></i> </a>
+            </div>
+            <div class="social-icons-item">
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div class="social-icons-item">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <div class="social-icons-item">
+              <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h3>Important Links</h3>
+        <div class="imp-links-item">
+          <a href="#">About</a>
+        </div>
+        <div class="imp-links-item">
+          <a href="#">Our Product</a>
+        </div>
+        <div class="imp-links-item">
+          <a href="#">Our Dealers</a>
+        </div>
+        <div class="imp-links-item">
+          <a href="#">Contact Us</a>
+        </div>
+        <div class="imp-links-item">
+          <a href="#">
+            Career</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h3>Medinav Pharma On Map</h3>
+        <div class="map">
+          <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14997.632442992854!2d73.8093633!3d19.9913792!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddeaf02aa0a21f%3A0x1236debe7d9948e9!2sSurya%20Complex!5e0!3m2!1sen!2sin!4v1727776675451!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="responsive"></iframe> -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14997.632442992854!2d73.8093633!3d19.9913792!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddeaf02aa0a21f%3A0x1236debe7d9948e9!2sSurya%20Complex!5e0!3m2!1sen!2sin!4v1727776675451!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="responsive"></iframe>
+        </div>
+      </div>
     </footer>
     <script src="medinavscript.js"></script>
   </body>
